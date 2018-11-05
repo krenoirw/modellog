@@ -3,6 +3,8 @@ module Test2
 
   included do
     before_update :write_log
+
+    def write_log; end
   end
 
   class_methods do

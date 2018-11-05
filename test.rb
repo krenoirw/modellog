@@ -3,6 +3,8 @@ module Test
 
   included do
     before_create :write_log
+
+    def write_log; end
   end
 
   class_methods do
