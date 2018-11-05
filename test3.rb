@@ -16,6 +16,7 @@ module Test3
       end
     end
 
+    # example
     # class User < ApplicationRecord
     #   include Test3
     #   model_log do
